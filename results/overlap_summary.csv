@@ -1,0 +1,5 @@
+scenario,files_total,candidate_writable,evaluator_loaded,overlap,score_accepted
+clean,7,1,5,0,true
+overlap,7,2,5,1,false
+synthetic_2,7,3,5,2,false
+synthetic_3,7,4,5,3,false

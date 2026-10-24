@@ -1,0 +1,11 @@
+test_clean (test_boundary.BoundaryTests.test_clean) ... ok
+test_cli_rejects_parent_path (test_boundary.BoundaryTests.test_cli_rejects_parent_path) ... ok
+test_empty_manifest (test_boundary.BoundaryTests.test_empty_manifest) ... ok
+test_overlap (test_boundary.BoundaryTests.test_overlap) ... ok
+test_reject_absolute_and_escape_paths (test_boundary.BoundaryTests.test_reject_absolute_and_escape_paths) ... ok
+test_windows_normalization_and_globs (test_boundary.BoundaryTests.test_windows_normalization_and_globs) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.788s
+
+OK

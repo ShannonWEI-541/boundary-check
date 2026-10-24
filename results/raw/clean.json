@@ -1,0 +1,37 @@
+{
+  "basis": "declared manifest; not OS ACLs",
+  "overlap": [],
+  "score_accepted": true,
+  "rows": [
+    {
+      "file": "shared/__init__.py",
+      "writable_by_candidate": false,
+      "loaded_by_evaluator": true,
+      "flag": "-"
+    },
+    {
+      "file": "shared/helper_a.py",
+      "writable_by_candidate": false,
+      "loaded_by_evaluator": true,
+      "flag": "-"
+    },
+    {
+      "file": "shared/helper_b.py",
+      "writable_by_candidate": false,
+      "loaded_by_evaluator": true,
+      "flag": "-"
+    },
+    {
+      "file": "toy_grader.py",
+      "writable_by_candidate": false,
+      "loaded_by_evaluator": true,
+      "flag": "-"
+    },
+    {
+      "file": "toy_rules.json",
+      "writable_by_candidate": false,
+      "loaded_by_evaluator": true,
+      "flag": "-"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+=== clean ===
+Toy provisional score: 10
+file | writable-by-candidate | loaded-by-evaluator | flag
+shared/__init__.py | false | true | -
+shared/helper_a.py | false | true | -
+shared/helper_b.py | false | true | -
+toy_grader.py | false | true | -
+toy_rules.json | false | true | -
+JSON: {"basis": "declared manifest; not OS ACLs", "overlap": [], "rows": [{"file": "shared/__init__.py", "flag": "-", "loaded_by_evaluator": true, "writable_by_candidate": false}, {"file": "shared/helper_a.py", "flag": "-", "loaded_by_evaluator": true, "writable_by_candidate": false}, {"file": "shared/helper_b.py", "flag": "-", "loaded_by_evaluator": true, "writable_by_candidate": false}, {"file": "toy_grader.py", "flag": "-", "loaded_by_evaluator": true, "writable_by_candidate": false}, {"file": "toy_rules.json", "flag": "-", "loaded_by_evaluator": true, "writable_by_candidate": false}], "score_accepted": true}
+checker exit: 0
+Score accepted
+=== overlap ===
+Toy provisional score: 10
+file | writable-by-candidate | loaded-by-evaluator | flag
+shared/__init__.py | false | true | -
+shared/helper_a.py | false | true | -
+shared/helper_b.py | true | true | OVERLAP
+toy_grader.py | false | true | -
+toy_rules.json | false | true | -
+JSON: {"basis": "declared manifest; not OS ACLs", "overlap": ["shared/helper_b.py"], "rows": [{"file": "shared/__init__.py", "flag": "-", "loaded_by_evaluator": true, "writable_by_candidate": false}, {"file": "shared/helper_a.py", "flag": "-", "loaded_by_evaluator": true, "writable_by_candidate": false}, {"file": "shared/helper_b.py", "flag": "OVERLAP", "loaded_by_evaluator": true, "writable_by_candidate": true}, {"file": "toy_grader.py", "flag": "-", "loaded_by_evaluator": true, "writable_by_candidate": false}, {"file": "toy_rules.json", "flag": "-", "loaded_by_evaluator": true, "writable_by_candidate": false}], "score_accepted": false}
+checker exit: 1
+Score blocked
