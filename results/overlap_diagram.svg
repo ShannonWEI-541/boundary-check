@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="460" viewBox="0 0 640 460" role="img" aria-labelledby="diagram-title diagram-desc">
+<title id="diagram-title">Synthetic demo - how an overlap is flagged</title>
+<desc id="diagram-desc">The same toy file is declared candidate writable and observed loaded by the toy evaluator, so its provisional score is blocked.</desc>
+<rect width="640" height="460" fill="#ffffff"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="320" y="31" text-anchor="middle" font-size="22" font-weight="bold" fill="#202830">Synthetic demo - how an overlap is flagged</text>
+<text text-anchor="middle" font-size="20" font-weight="bold" fill="#202830"><tspan x="155" y="63">Files the candidate</tspan><tspan x="155" dy="22">may write</tspan></text>
+<text text-anchor="middle" font-size="20" font-weight="bold" fill="#202830"><tspan x="485" y="63">Files the evaluator</tspan><tspan x="485" dy="22">loaded</tspan></text>
+<text x="320" y="125" text-anchor="middle" font-size="21" font-weight="bold" fill="#9D2626">OVERLAP - score blocked</text>
+<line x1="285" y1="282" x2="355" y2="282" stroke="#B13C3C" stroke-width="4"/>
+<rect x="25" y="205" width="260" height="44" rx="7" fill="#F5F7FA" stroke="#697586" stroke-width="2"/>
+<text x="155" y="223" text-anchor="middle" fill="#202830" font-size="18" font-weight="normal"><tspan x="155">candidate_area/</tspan><tspan x="155" dy="19">submission.txt</tspan></text>
+<rect x="25" y="260" width="260" height="44" rx="7" fill="#FBE9E7" stroke="#B13C3C" stroke-width="2"/>
+<text x="155" y="289" text-anchor="middle" fill="#202830" font-size="19" font-weight="bold">shared/helper_b.py</text>
+<rect x="355" y="150" width="260" height="44" rx="7" fill="#F5F7FA" stroke="#697586" stroke-width="2"/>
+<text x="485" y="179" text-anchor="middle" fill="#202830" font-size="19" font-weight="normal">shared/__init__.py</text>
+<rect x="355" y="205" width="260" height="44" rx="7" fill="#F5F7FA" stroke="#697586" stroke-width="2"/>
+<text x="485" y="234" text-anchor="middle" fill="#202830" font-size="19" font-weight="normal">shared/helper_a.py</text>
+<rect x="355" y="260" width="260" height="44" rx="7" fill="#FBE9E7" stroke="#B13C3C" stroke-width="2"/>
+<text x="485" y="289" text-anchor="middle" fill="#202830" font-size="19" font-weight="bold">shared/helper_b.py</text>
+<rect x="355" y="315" width="260" height="44" rx="7" fill="#F5F7FA" stroke="#697586" stroke-width="2"/>
+<text x="485" y="344" text-anchor="middle" fill="#202830" font-size="19" font-weight="normal">toy_grader.py</text>
+<rect x="355" y="370" width="260" height="44" rx="7" fill="#F5F7FA" stroke="#697586" stroke-width="2"/>
+<text x="485" y="399" text-anchor="middle" fill="#202830" font-size="19" font-weight="normal">toy_rules.json</text>
+<text x="320" y="443" text-anchor="middle" font-size="18" fill="#394959">Sources: checker JSON + generated toy manifest</text>
+</g>
+</svg>

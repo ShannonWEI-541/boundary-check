@@ -43,7 +43,8 @@ The complete captured output is in `results/demo-output.txt`.
 
 The chart compares candidate writable files, evaluator loaded files, and their overlap across four scenarios.
 All chart data comes from synthetic toy sandboxes, not a real project.
-Regenerate with `python -B make_chart_data.py` and `python -B make_chart.py`.
+Regenerate with `python -B make_chart_data.py`, `python -B make_chart.py`, and `python -B make_diagram.py`.
+![Synthetic scenario chart](results/overlap_summary.svg) ![Synthetic overlap diagram](results/overlap_diagram.svg)
 
 ## Limits
 
